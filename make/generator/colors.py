@@ -138,6 +138,7 @@ COLORS = {
     "pink": {"main": "#d56199", "light": "#e4b0cd"},
     "purple": {"main": "#9141ac", "light": "#b185c6"},
     "slate": {"main": "#6f8396", "light": "#acb2b6"},
+    "darkgrey": {"main": "#474747", "light": "#575757"},
 }
 
 BASE_MAIN = "#438DE6"

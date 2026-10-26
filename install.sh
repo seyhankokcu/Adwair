@@ -8,9 +8,10 @@
 # Options:
 #   -c, --color [COLOR]  Use a colored places variant. (default: blue).
 #                        or an unambiguous prefix, case-insensitive:
-#                          b, blue     g, green    o, orange
-#                          p, pink     pu, purple  r, red
-#                          s, slate    t, teal     y, yellow
+#                          b, blue     d, darkgrey g, green
+#                          o, orange   p, pink     pu, purple
+#                          r, red      s, slate    t, teal
+#                          y, yellow
 #   -a, --apps           Also install colored app icons. Requires -c. (default: blue).
 #   -n, --name NAME      Theme folder name (default: Adwair)
 #   -p, --path PATH      Base installation path (default: ~/.local/share/icons)
@@ -42,7 +43,7 @@ COLORS_DIR="$MAKE_DIR/generator/colors"
 APPS_COLORS_DIR="$MAKE_DIR/generator/apps"
 DARK_DIR="$MAKE_DIR/generator/dark"
 
-AVAILABLE_COLORS=(blue green orange pink purple red slate teal yellow)
+AVAILABLE_COLORS=(blue darkgrey green orange pink purple red slate teal yellow)
 
 COLOR=""
 COLOR_SET=0
